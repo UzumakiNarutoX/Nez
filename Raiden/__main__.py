@@ -87,43 +87,25 @@ RAIDEN_IMG = "https://telegra.ph/file/d5c772de35d67ef20785c.mp4"
 RAIDEN_START = "https://telegra.ph/file/967ce7a412d042499c98e.mp4"
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/967ce7a412d042499c98e.mp4) 」────
-ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
-ɪ'ᴍ [𝙎𝙚𝙣𝙠𝙤 𝙎𝙖𝙣](https://senkosan.fandom.com/wiki/Senko) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-» ᴜᴘᴛɪᴍᴇ {} 
-» ᴜsᴇʀs {} ᴀᴄʀᴏss {} ᴄʜᴀᴛs 
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ᴀғᴛᴇʀ ᴍʏ ᴇʟᴇᴍᴇɴᴛᴀʟ ʙᴜғғ. ××  
-𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 [𝘼𝙊𝙂𝙄𝙍𝙄](https://t.me/AogiriNetwork).
+*ᴋᴏɴɪᴄʜɪᴡᴀ! {}!*
+۞ ɪᴍ ᴋʏᴏᴜᴋᴏ ʜᴏʀɪ ᴀɴ ᴀɴɪᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. [👋](https://telegra.ph/file/ace3cc2757f843ff71330.jpg)
+───────────────────────
+× *Aʟɪᴠᴇ Sɪɴᴄᴇ:* {}
+× {} *Wᴇᴇʙꜱ, Aᴄʀᴏꜱꜱ* {} *Cʜᴀᴛꜱ*
+───────────────────────
+۞ ɪᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢᴄ ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛʟʏ!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ sᴇɴᴋᴏ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️",
-            url="t.me/SenkoSanRoot?startgroup=true",
+            text="【Aᴅᴅ Kʏᴏᴜᴋᴏ Tᴏ Yᴏᴜʀ GC】",
+            url="https://t.me/kyoukohori_robot?startgroup=new",
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="ᴍʏ ʜᴏᴍᴇ",
-            url="t.me/SenkoxSupport",
-        ),
-        InlineKeyboardButton(
-            text="ᴛʜᴇ ᴀʟᴍɪɢʜᴛʏ ∞",
-            url="https://t.me/Xultim8",
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="ʜᴇʟᴘ",
-            callback_data="help_back",
-        ),
-        InlineKeyboardButton(
-            text="ᴀᴏɢɪʀɪ",
-            url="https://t.me/AogiriNetwork",
-        ),
+        InlineKeyboardButton(text="【HELP】", callback_data="help_back"),
+        InlineKeyboardButton(text="【Support】", url="https://t.me/HoriSupport"),
     ],
 ]
 
